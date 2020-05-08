@@ -1,0 +1,32 @@
+.greetings {
+  font-size: 70px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.showing {
+  display: block;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.js-form__input::placeholder {
+  color: #e67e22;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.js-form__input:empty {
+  padding: 12px 0;
+  outline: 0;
+  border: 1px solid transparent;
+  border-bottom: 1px solid #e67e22;
+}
+
+.js-form__input {
+  width: 20%;
+  background-color: transparent;
+  font-size: 20px;
+  line-height: 18px;
+}

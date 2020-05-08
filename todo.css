@@ -1,0 +1,48 @@
+.js-toDoList {
+  padding-left: 0px;
+}
+
+li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin-bottom: 5px;
+}
+
+li span {
+  display: flex;
+  padding-left: 5px;
+  font-size: 25px;
+}
+
+li button {
+  border: none;
+  padding: 0px;
+  cursor: pointer;
+  font-size: 10px;
+}
+
+.js-toDoForm {
+  text-align: center;
+}
+
+.js-toDoForm__input::placeholder {
+  color: #e67e22;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.js-toDoForm__input:empty {
+  padding: 12px 0;
+  outline: 0;
+  border: 1px solid transparent;
+  border-bottom: 1px solid #e67e22;
+}
+
+.js-toDoForm__input {
+  width: 20%;
+  background-color: transparent;
+  font-size: 20px;
+  line-height: 18px;
+}
